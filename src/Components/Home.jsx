@@ -1,4 +1,5 @@
 import PageHeading from "./PageHeading";
+import ProductListing from "./ProductListing";
 export default function Home() {
   return (
     <div className="home-container">
@@ -8,6 +9,7 @@ export default function Home() {
           unique stickers. Perfect for any occasion
         </p>
       </PageHeading>
+      <ProductListing />
     </div>
   );
 }
