@@ -16,6 +16,10 @@
 .footer a:hover {
     color: #1a202c;
 }
+h1{
+    text-align: center;
+    color:#5b21B6;
+}
 
 .my-heading {
     text-align: center;

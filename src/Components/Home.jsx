@@ -1,3 +1,4 @@
+import products from "../data/products";
 import PageHeading from "./PageHeading";
 import ProductListing from "./ProductListing";
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
           unique stickers. Perfect for any occasion
         </p>
       </PageHeading>
-      <ProductListing />
+      <ProductListing products={products} />
     </div>
   );
 }
